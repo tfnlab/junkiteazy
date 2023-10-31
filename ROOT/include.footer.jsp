@@ -126,20 +126,19 @@
 
         <div class="col-lg-5 col-md-6">
           <div class="footer-info">
-              <h3>California Solar Group</h3>
-              <p>casolargroup<span>.</span>com</p>
+              <h3>Junk It EZ</h3>
+              <p>junkitezusa<span>.</span>com</p>
               <p>
-                <a href="https://www.google.com/maps?q=208+S+Grand+Ave,+Santa+Ana,+CA+92701" target="_blank">
-                7647 Hayvenhurst Ave, Unit 26, <br>
-                Van Nuys, CA 91406, USA<br>
+                <a href="https://www.google.com/maps?q=11610+Keswick+St,+North+Hollywood,+CA+91605" target="_blank">
+                  11610 Keswick St,<br> North Hollywood, CA 91605
                 </a>
-                <strong>Phone:</strong> <a href="tel:7472862828">(747) 286-2828</a><br>
-                <strong>Email:</strong> <a href="mailto:info@casolargroup.com">info@casolgroup.com</a><br>
+                <strong>Phone:</strong> <a href="tel:8186983138">(818) 698-3138</a><br>
+                <strong>Email:</strong> <a href="mailto:info@junkitezusa.com">info@junkitezusa.com</a><br>
               </p>
   <div class="social-links mt-3">
-  <a href="https://www.facebook.com/casolargroup" class="facebook"><i class="bx bxl-facebook"></i></a>
-  <a href="https://www.instagram.com/californiasolargroup/?igshid=MzRlODBiNWFlZA%3D%3D" class="instagram"><i class="bx bxl-instagram"></i></a>
-  <a href="https://www.linkedin.com/company/ca-solar-group/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+  <a href="https://www.facebook.com/#" class="facebook"><i class="bx bxl-facebook"></i></a>
+  <a href="https://www.instagram.com/#" class="instagram"><i class="bx bxl-instagram"></i></a>
+  <a href="https://www.linkedin.com/#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
   </div>
           </div>
         </div>
