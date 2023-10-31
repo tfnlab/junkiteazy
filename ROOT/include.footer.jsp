@@ -174,7 +174,7 @@
   </div>
   <div class="container">
     <div class="copyright">
-      &copy; Copyright <strong><span>California Solar Group</span></strong>. All Rights Reserved. CSLB #1067781
+      &copy; Copyright <strong><span>California Solar Group</span></strong>. All Rights Reserved.
     </div>
     <div class="credits">
       <!-- All the links in the footer should remain intact. -->
