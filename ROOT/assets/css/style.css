@@ -292,6 +292,10 @@ h6 {
   line-height: 2.2;
   margin-left: 5px;
 }
+
+.navbar-brand {
+  color: white; /* Set the font color to white */
+}
 .navbar .mobile-menu-logo{
   width: 170px;
     display: none;
