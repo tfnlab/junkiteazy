@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>California Solar Group - Get Quote</title>
+  <title>Junk It EZ - Get Quote</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -66,9 +66,11 @@
 
     <section class="inner-page">
       <div class="container">
-        <h1 class="mt-5">Solar Installation Price Quote</h1>
+        <h1 class="mt-5">Junk Removal Quote</h1>
         <form action="hrn.jsp" method="post" class="mt-4" id="quoteform" name="quoteform" >
           <input type="hidden" name="apiAction" id="apiAction"  value="addQuote" >
+          <input type="hidden" name="roof_type" id="roof_type"  value="na" >
+          <input type="hidden" name="energy_usage" id="energy_usage"  value="na" >
 
           <div class="form-group mt-4">
             <label for="name">Your Name:</label>
@@ -86,25 +88,8 @@
           </div>
 
           <div class="form-group mt-4">
-            <label for="address">Installation Address:</label>
+            <label for="address">Address:</label>
             <input type="text" id="installation_address" name="installation_address" class="form-control" required>
-          </div>
-
-          <div class="form-group mt-4">
-            <label for="roof_type">Roof Type:</label>
-            <select id="roof_type" name="roof_type" class="form-control" required>
-              <option value="">Select Roof Type</option>
-              <option value="Flat">Flat</option>
-              <option value="Sloped">Sloped</option>
-              <option value="Tile">Tile</option>
-              <option value="Metal">Metal</option>
-              <option value="Other">Other</option>
-            </select>
-          </div>
-
-          <div class="form-group mt-4">
-            <label for="energy_usage">Average Monthly Energy Usage (kWh):</label>
-            <input type="number" id="energy_usage" name="energy_usage" class="form-control" required>
           </div>
 
           <div class="form-group mt-4">

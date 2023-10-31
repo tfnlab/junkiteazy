@@ -8,56 +8,39 @@
     </div>
 
     <div>
-      <iframe  style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3299.5205430802876!2d-118.49520754893047!3d34.20972478046801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c299f8a61e91f9%3A0x3832730f1ae6a8e4!2s7647%20Hayvenhurst%20Ave%2C%20Van%20Nuys%2C%20CA%2091406!5e0!3m2!1sen!2sus!4v1679779568090!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15257.828494971616!2d-118.39834656558786!3d34.20652918866717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2942443558029%3A0xc85e85667130b8e4!2s11610%20Keswick%20St%2C%20North%20Hollywood%2C%20CA%2091605!5e0!3m2!1sen!2sus!4v1698778271993!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
     <div class="row mt-5">
 
-  <div class="col-lg-4">
-  <div class="info">
-  <div class="address">
-  <a href="https://www.google.com/maps/search/7647+Hayvenhurst+Ave,+Unit+26,+Van+Nuys,+CA+91406" target="_blank">
-  <i class="bi bi-geo-alt" ></i>
-  </a>
-  <h4>Los Angeles Headquarters</h4>
-  <p>
-  <a href="https://www.google.com/maps/search/7647+Hayvenhurst+Ave,+Unit+26,+Van+Nuys,+CA+91406" target="_blank">
-  7647 Hayvenhurst Ave, Unit 26, Van Nuys, CA 91406
-  </a>
-  </p>
-  </div>
-  <div class="phone">
-  <i class="bi bi-phone"></i>
-  <h4>Call:</h4>
-  <p><a href="tel:7472862828">(747) 286-2828</a></p>
-  </div>
-  <HR>
-  <div class="address">
-  <a href="https://www.google.com/maps?q=208+S+Grand+Ave,+Santa+Ana,+CA+92701" target="_blank">
-  <i class="bi bi-geo-alt"></i>
-  </a>
-  <h4>Orange County Branch Office</h4>
-  <p>
-  <a href="https://www.google.com/maps?q=208+S+Grand+Ave,+Santa+Ana,+CA+92701" target="_blank">
-  208 S Grand Ave, Santa Ana, CA 92701
-  </a>
-  </p>
-  </div>
-  <div class="phone">
-  <i class="bi bi-phone"></i>
-  <h4>Call:</h4>
-  <p><a href="tel:8186582362">(818) 658-2362</a></p>
-  </div>
+      <div class="col-lg-4">
+        <div class="info">
+          <div class="address">
+            <a href="https://www.google.com/maps?q=11610+Keswick+St,+North+Hollywood,+CA+91605" target="_blank">
+            <i class="bi bi-geo-alt"></i>
+            </a>
+            <h4>Main Office</h4>
+            <p>
+              <a href="https://www.google.com/maps?q=11610+Keswick+St,+North+Hollywood,+CA+91605" target="_blank">
+                11610 Keswick St, North Hollywood, CA 91605
+              </a>
+            </p>
+          </div>
+          <div class="phone">
+            <i class="bi bi-phone"></i>
+            <h4>Call:</h4>
+            <p><a href="tel:8186983138">(818) 698-3138</a></p>
+          </div>
 
-  <div class="email">
-  <i class="bi bi-envelope"></i>
-  <h4>Email:</h4>
-  <p><a href="mailto:info@casolargroup.com">info@casolargroup.com</a></p>
-  </div>
+          <div class="email">
+            <i class="bi bi-envelope"></i>
+            <h4>Email:</h4>
+            <p><a href="mailto:info@junkitezusa.com">info@junkitezusa.com</a></p>
+          </div>
 
-  </div>
+        </div>
 
-  </div>
+      </div>
 
       <div class="col-lg-8 mt-5 mt-lg-0">
 

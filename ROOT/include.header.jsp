@@ -5,7 +5,7 @@
     <!-- Uncomment below if you prefer to use an image logo -->
     <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
     <a class="navbar-brand" href="index.html">
-      <img src="assets/img/logo.png" alt="Logo" class="navbar-logo" style="max-height: 85px; max-width: 100%;">
+     Junk It EZ
     </a>
 
 
@@ -31,8 +31,8 @@
     </nav><!-- .navbar -->
 
     <a class="call-now-link-btn" href="tel:7472862828"><i class="ri-phone-line"></i></a>
-    <a class="call-now-link" href="tel:7472862828">(747) 286-2828</a>
-    <a href="welcome" class="get-started-btn scrollto">Get Started</a>
+    <a class="call-now-link" href="tel:8186983138">(818) 698-3138</a>
+    <a href="get_quote.jsp" class="get-started-btn">Get Started</a>
 
   </div>
 </header><!-- End Header -->
