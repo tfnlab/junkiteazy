@@ -1,0 +1,1469 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>California Solar Group - Home</title>
+  <meta name="description" content="California Solar Group provides expert solar panel installation, maintenance, and financing services. We offer customizable solar solutions for residential and commercial clients. Experience our exceptional customer service and high-quality equipment. Let's together harness the power of the sun for a sustainable future.">
+  <meta name="keywords" content="California Solar Group, Solar Solutions, Solar Panels, Solar Battery Storage, EV Charging Stations, Solar Consultation, Solar System Design, Solar Installations, Solar Financing, Solar Maintenance, Residential Solar, Commercial Solar, Industrial Solar, Solar Tax Credit, Solar Incentives, High-Quality Solar Equipment, Solar Energy, Renewable Energy, Clean Energy, Green Energy, Sustainability, Solar Power, Solar Technology, Expert Solar Installation">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Gp - v4.9.1
+  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <script>
+  const button = document.querySelector('.call-now-link-btn');
+
+  button.addEventListener('click', function() {
+    this.classList.toggle('collapsed');
+  });
+
+  function getsubscribe(event) {
+    event.preventDefault(); // Prevent the default form submission behavior
+    var form = document.getElementById('subscribeform');
+    var email = document.getElementById('emailsub').value; // Get the form element
+    // Validate the email address (you can add your own validation logic here)
+    if (!validateEmail(email)) {
+      alert('Please enter a valid email address.');
+      return;
+    }
+
+
+
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState == 4) {
+        // The request is complete
+        if (xhr.status == 200) {
+          var response = xhr.responseText;
+          document.getElementById('success').innerHTML = "Thank you for subscribing!" + response;
+          form.reset(); // Reset the form
+        } else {
+          // The request was unsuccessful
+          alert('An error occurred while subscribing. Please try again later.');
+        }
+      }
+    };
+    // Set the request method and URL
+    var urlString = "hrn.jsp?apiAction=addSub&email=" + email;
+    xhr.open("GET", urlString, true);
+    xhr.send();
+
+  }
+
+  // Email validation function
+  function validateEmail(email) {
+    var re = /\S+@\S+\.\S+/;
+    return re.test(email);
+  }
+
+  </script>
+
+  <style>
+      .navbar-logo {
+          margin-right: 10px;
+      }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/img/logo.png" alt="Logo" class="navbar-logo" style="max-height: 64px; max-width: 100%;">
+      </a>
+
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <div class="mobile-menu-logo">
+            <img src="assets/img/logo.blk.png" alt="img">
+          </div>
+          <li class="dropdown"><a href="#"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="nav-link scrollto" href="#about">Company</a></li>
+              <li><a class="nav-link scrollto" href="#team">Team</a></li>
+              <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+              <!--
+              <li><a class="nav-link scrollto" href="signup.jsp">Customer Portal</a></li>
+              <li><a class="nav-link scrollto" href="signup.employee.jsp">Technicians</a></li>
+              -->
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="solar_financing.jsp">Financing</a></li>
+          <li><a class="nav-link scrollto" href="blog.html">Blog</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a class="call-now-link-btn" href="tel:7472862828"><i class="ri-phone-line"></i></a>
+      <a class="call-now-link" href="tel:7472862828">(747) 286-2828</a>
+      <a href="welcome" class="get-started-btn">Get Started</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center justify-content-center">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-xl-6 col-lg-8">
+          <h1>Powering Change with Solar Solutions</h1>
+          <H2>Harness the Power of the Sun for Your Home or Business With Our Solar Panels, While Saving Money and the Environment
+          </h2>
+        </div>
+      </div>
+
+      <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
+        <div class="col-xl-2 col-md-4">
+          <a href="electricity_bill_offset.html">
+            <div class="icon-box">
+              <i class="ri-store-line"></i>
+              <h3>100% Bill Offset See if You Qualify</h3>
+            </div>
+          </a>
+
+        </div>
+        <div class="col-xl-2 col-md-4">
+          <a href="tax_credit.html">
+            <div class="icon-box">
+              <i class="ri-bar-chart-box-line"></i>
+              <h3>30% ITC Federal Tax Credit</h3>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-xl-2 col-md-4">
+          <a href="premium_solar_and_battery_installer.html">
+            <div class="icon-box">
+              <i class="ri-sun-line"></i>
+              <h3>Premium Solar and Battery Installer</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-xl-2 col-md-4">
+          <a href="increased_home_value.html">
+            <div class="icon-box">
+              <i class="ri-money-dollar-circle-line"></i>
+              <h3>Up to 20% Home Value Increase</h3>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-xl-2 col-md-4">
+          <a href="made_in_usa.html">
+            <div class="icon-box">
+              <i class="ri-flag-line"></i>
+              <h3>100% Made in the USA Solar Panels</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <h3>
+              Every hour, the Earth receives enough energy from the Sun, capable of fueling our society for an entire year.
+            </h3>
+            <p class="fst-italic">
+              We’ll help you transition to solar energy seamlessly with expert installation, maintenance, storage, and financing options.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i>
+                We offer a range of customizable solar solutions tailored to your unique energy needs and goals, including solar panel installation, solar battery storage, EV charging stations, and more!
+              </li>
+              <li><i class="ri-check-double-line"></i>
+                We are committed to using only the highest quality solar equipment and technologies, sourced from reputable manufacturers and backed by comprehensive warranties and guarantees.
+              </li>
+              <li><i class="ri-check-double-line"></i>
+                We are dedicated to customer satisfaction with personalized consultations, transparent pricing, and ongoing support for optimal solar system performance.
+              </li>
+            </ul>
+            <p>
+              Join us on this exciting journey towards a brighter and sustainable future. Explore our website to discover the power of solar energy, learn about our innovative solutions, and see how you can become part of the solar revolution. Together, let's unlock the immense potential of the sun and create a world powered by clean, renewable energy.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <!--
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-10.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-11.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-12.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-13.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-14.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-15.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-16.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-17.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-18.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-19.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-20.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-21.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+    -->
+    <!-- End Clients Section -->
+
+    <section id="badges" class="badgesmobile">
+          <!-- Swiper -->
+      <div class="swiper-badges mySwiperBadges">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://www.seia.org/" >
+                <img src="assets/img/clients/client-22.png" class="card-img-top img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://g.page/r/CYIionv7TzANEBM/review" >
+                <img src="assets/img/clients/client-1.png" class="card-img-top img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://www.bbb.org/us/ca/van-nuys/profile/solar-installation/ca-solar-group-1216-1530416" >
+                <img src="assets/img/clients/client-2.png" class="card-img-top img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://www.yelp.com/biz/california-solar-group-van-nuys-2" >
+                <img src="assets/img/clients/client-4.png" class="card-img-top img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://www.tesla.com/powerwall" >
+                <img src="assets/img/clients/client-5.png" class="card-img-top img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://usa.recgroup.com/" >
+                <img src="assets/img/clients/client-6.png" class="card-img-top img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://unirac.com/product/solarmount/" >
+                <img src="assets/img/clients/client-7.png" class="card-img-top img-fluid" alt="">
+              </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://enphase.com/installers/resources/ein" >
+                <img src="assets/img/clients/client-10.png" class="card-img-top img-fluid" alt="">
+              </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://www.gaf.com/en-us/roofing-contractors?utm_source=google&utm_medium=cpc&utm_campaign=Homeowner_Brand&utm_term=gaf%20master%20elite&gclid=Cj0KCQjwzdOlBhCNARIsAPMwjbxEEFpJtZMvzZRjnmMKtjuLFpFEJNlN5Joo1f-F-5Tb8e0xkRCdu0AaAoU5EALw_wcB&gclsrc=aw.ds" >
+                <img src="assets/img/clients/client-11.png" class="card-img-top img-fluid" alt="">
+              </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://www.certainteed.com/" >
+                <img src="assets/img/clients/client-12.png" class="card-img-top img-fluid" alt="">
+              </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://www.owenscorning.com/en-us" >
+                <img src="assets/img/clients/client-13.png" class="card-img-top img-fluid" alt="">
+              </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://www.ironridge.com/" >
+                <img src="assets/img/clients/client-14.png" class="card-img-top img-fluid" alt="">
+              </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+
+    <section id="badges" class="badges">
+      <div class="container" data-aos="fade-up">
+        <div class="row d-flex flex-wrap">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://www.seia.org/" >
+                <img src="assets/img/clients/client-22.png" class="card-img-top img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://g.page/r/CYIionv7TzANEBM/review" >
+                <img src="assets/img/clients/client-1.png" class="card-img-top img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://www.bbb.org/us/ca/van-nuys/profile/solar-installation/ca-solar-group-1216-1530416" >
+                <img src="assets/img/clients/client-2.png" class="card-img-top img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+            <!-- Repeat the pattern for the other slides -->
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://www.yelp.com/biz/california-solar-group-van-nuys-2" >
+                <img src="assets/img/clients/client-4.png" class="card-img-top img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://www.tesla.com/powerwall" >
+                <img src="assets/img/clients/client-5.png" class="card-img-top img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://usa.recgroup.com/" >
+                <img src="assets/img/clients/client-6.png" class="card-img-top img-fluid" alt="">
+              </a>
+            </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://unirac.com/product/solarmount/" >
+                <img src="assets/img/clients/client-7.png" class="card-img-top img-fluid" alt="">
+              </a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://enphase.com/installers/resources/ein" >
+                <img src="assets/img/clients/client-10.png" class="card-img-top img-fluid" alt="">
+              </a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://www.gaf.com/en-us/roofing-contractors?utm_source=google&utm_medium=cpc&utm_campaign=Homeowner_Brand&utm_term=gaf%20master%20elite&gclid=Cj0KCQjwzdOlBhCNARIsAPMwjbxEEFpJtZMvzZRjnmMKtjuLFpFEJNlN5Joo1f-F-5Tb8e0xkRCdu0AaAoU5EALw_wcB&gclsrc=aw.ds" >
+                <img src="assets/img/clients/client-11.png" class="card-img-top img-fluid" alt="">
+              </a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://www.certainteed.com/" >
+                <img src="assets/img/clients/client-12.png" class="card-img-top img-fluid" alt="">
+              </a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://www.owenscorning.com/en-us" >
+                <img src="assets/img/clients/client-13.png" class="card-img-top img-fluid" alt="">
+              </a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://www.ironridge.com/" >
+                <img src="assets/img/clients/client-14.png" class="card-img-top img-fluid" alt="">
+              </a>
+              </div>
+            </div>
+            <!--
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://qcells.com/us/get-started/complete-energy-solution/solar-panel" >
+                <img src="assets/img/clients/client-15.png" class="card-img-top img-fluid" alt="">
+              </a>
+              </div>
+            </div>
+            -->
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://qcells.com/us/get-started/complete-energy-solution/ess" >
+                <img src="assets/img/clients/partnerqcells.jpg" style="height: 80px; display: flex; margin: 0 auto; width: auto" class="card-img-top img-fluid" alt="">
+              </a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://silfabsolar.com/" >
+                <img src="assets/img/clients/client-17.png" class="card-img-top img-fluid" alt="">
+              </a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://www.aptossolar.com/" >
+                <img src="assets/img/clients/client-18.png" class="card-img-top img-fluid" alt="">
+              </a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://calssa.org/" >
+                <img src="assets/img/clients/client-19.png" class="card-img-top img-fluid" alt="">
+              </a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://www.nabcep.org/" >
+                <img src="assets/img/clients/client-20.png" class="card-img-top img-fluid" alt="">
+              </a>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card">
+                <a href="https://solarrights.org/" >
+                <img src="assets/img/clients/client-21.png" class="card-img-top img-fluid" alt="">
+              </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="image col-lg-6" style='background-image: url("assets/img/features.jpg");' data-aos="fade-right"></div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-receipt"></i>
+              <h4>Experience and Expertise</h4>
+              <p>
+                Our Customers chose California Solar Group because of our experience and expertise in the Solar industry. California Solar Group has hundreds of projects installed and producing throughout Southern California. We have a proven track record of successful Solar PV and Battery Storage installations.We take pride in our ability to deliver quality service to our customers.
+              </p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-cube-alt"></i>
+              <h4>High-Quality Equipment</h4>
+              <p>
+                The quality of the solar panels, inverters, battery storage systems and other equipment used in a Solar installation can have a significant impact on the system's performance and durability. California Solar Group is a company that uses high-quality Tier 1 equipment from reputable manufacturers and distributors to ensure the longevity and efficiency of their solar system.This is why we feel confident offering some of the best warranties in the industry.
+              </p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-images"></i>
+              <h4>Financing Options</h4>
+              <p>
+                Solar installations can be a significant investment for a homeowner. 80% of Solar and Battery Storage projects are financed.California Solar Group offers a variety of competitive financing options to make the cost more manageable for our customers. Each Solar / Battery project is uniquely tailored for the homeowner’s needs. Accordingly, California Solar Group offers financing options to suit different budgets and preferences.
+              </p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-shield"></i>
+              <h4>Customer Service</h4>
+              <p>
+                Good customer service is essential when choosing a solar company. At California Solar Group Customer Service is the backbone of our business model.We seek to provide clear and transparent communication throughout the installation process and beyond. California Solar Group considers each and every customer we work with to be a member of our Green Energy Family. We look forward to providing ongoing support and maintenance services for the lifespan of the system which can easily extend past 25 years. In a market saturated with promises and sales pitches, California Solar Group distinguishes itself by striving to give the best customer experience possible. Our motto is a bit old fashioned “The Customer is Always Right” this is our core belief. We are here for our customers, we would not exist without them.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Our Services</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4><a href="solar_consultation.html">Solar Consultation</a></h4>
+              <p>
+                This service includes a thorough evaluation of the customer's energy needs, site assessment, and solar potential. California Solar Group provide customized solar system recommendations based on the customer's unique requirements, budget, and preferences.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="solar_system_design.html">Solar System Design</a></h4>
+              <p>
+                The company's team of engineers and designers develop detailed solar system designs, ensuring that the system meets both the customer's energy needs and local building regulations. The design process includes component selection, layout planning, and shading analysis to maximize system performance.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="solar_installations.html">Solar Installations</a></h4>
+              <p>
+                California Solar Group's team of certified and experienced installers ensure that the solar systems are installed safely, efficiently, and according to the highest industry standards. They handle all aspects of the installation process, from permitting to system commissioning.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4><a href="solar_financing.html">Solar Financing</a></h4>
+              <p>
+                The company offers various financing options to make solar energy more accessible to their customers. They can help clients navigate through solar incentives, rebates, and tax credits, as well as providing flexible payment plans and competitive solar loan options.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-slideshow"></i></div>
+              <h4><a href="solar_maintenance_and_monitoring.html">Solar Maintenance and Monitoring</a></h4>
+              <p>
+                To ensure optimal system performance and longevity, California Solar Group offers comprehensive maintenance and monitoring services. These services include routine system checks, performance monitoring, and addressing any potential issues that may arise over the system's lifespan.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-arch"></i></div>
+              <h4><a href="commercial_solar_solutions.html">Commercial Solar Solutions</a></h4>
+              <p>
+                California Solar Group also caters to the unique energy needs of commercial customers. They offer customized solar solutions for businesses of all sizes, from small retail shops to large industrial facilities, helping them reduce energy costs and achieve their sustainability goals.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>
+            Power up with California Solar Group's Customer Portal: Go Solar, Save, Connect!
+          </h3>
+          <p>
+            Join California Solar Group's Customer Portal for a powerful solar experience. Save with personalized insights, connect with our experts, and access exclusive offers. Go solar and embrace a brighter future today!
+          </p>
+          <a class="cta-btn" href="signup.jsp">Sign-Up</a>
+        </div>
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Our Portfolio</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Residential</li>
+              <li data-filter=".filter-card">Commercial</li>
+              <li data-filter=".filter-web">Industrial</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Residential 1</h4>
+                <p>Residential</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Residential 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.jsp" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Industrial 3</h4>
+                <p>Industrial</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Industrial 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.jsp" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Residential 2</h4>
+                <p>Residential</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Residential 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.jsp" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Commercial 2</h4>
+                <p>Commercial</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Commercial 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.jsp" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Industrial 2</h4>
+                <p>Industrial</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-5.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Industrial 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.jsp" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Residential 3</h4>
+                <p>Residential</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Residential 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.jsp" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/residential/DJI_0363-min.JPG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Residential 4</h4>
+                <p>Residential</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/residential/DJI_0363-min.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Residential 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.jsp" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/residential/DJI_0454-min.JPG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Residential 5</h4>
+                <p>Residential</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/residential/DJI_0454-min.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Residential 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.jsp" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/residential/DJI_0041-min.JPG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Residential 6</h4>
+                <p>Residential</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/residential/DJI_0041-min.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Residential 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.jsp" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/residential/DJI_0636-min.JPG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Residential 7</h4>
+                <p>Residential</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/residential/DJI_0636-min.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Residential 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.jsp" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/residential/DJI_0120-min.JPG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Residential 8</h4>
+                <p>Residential</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/residential/DJI_0120-min.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Residential 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.jsp" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/residential/DJI_0300-min.JPG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Residential 9</h4>
+                <p>Residential</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/residential/DJI_0300-min.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Residential 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.jsp" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Commercial 1</h4>
+                <p>Commercial</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Commercial 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.jsp" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Commercial 3</h4>
+                <p>Commercial</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Commercial 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.jsp" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Industrial 3</h4>
+                <p>Industrial</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-9.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Industrial 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.jsp" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row no-gutters">
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="100"></div>
+          <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
+            <div class="content d-flex flex-column justify-content-center">
+              <h3>
+                Experience the California Solar Group Difference: Countless Happy Clients and Completed Projects!
+              </h3>
+              <p>
+                California Solar Group is the trusted choice for solar panel installation and service. With a proven track record of delighted clients and numerous successful projects under our belt, you can rely on us for unparalleled expertise and exceptional customer care.
+              </p>
+              <div class="row">
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-emoji-smile"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="2500" data-purecounter-duration="2" class="purecounter"></span>
+                    <p><strong>Happy Clients</strong>
+                      We have worked with a wide range of clients over the years, and we are proud to have received positive feedback from all of them.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-journal-richtext"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="720" data-purecounter-duration="2" class="purecounter"></span>
+                    <p><strong>Projects</strong>
+                      From small residential jobs to large commercial projects, we have completed a diverse range of projects.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-clock"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="4" class="purecounter"></span>
+                    <p><strong>Years of experience</strong>
+                      Our team has been providing top-quality solar services for over a decade, giving us the skills and expertise to handle any project.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-award"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="4" class="purecounter"></span>
+                    <p><strong>Awards</strong>
+                      We have been recognized for our outstanding work with various awards and accolades in our field.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <h3>Andre M.</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    I&#39;m extremely satisfied with my PV system that California Solar Group has installed for me which covers all of
+  my electricity needs including two EVs. They don&#39;t cut any corners and the equipment is top-notch. The
+  staff, everyone I worked with is highly knowledgeable and professional. It actually surprised me how
+  smooth and quick the whole process was.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <h3>Mikhail Y.</h3>
+                <h4>Designer</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+
+                  Very professional service! The guys worked hard, professional ,very efficient.
+                  They installed solar panels in one day. High electricity bills gone and also we received large tax credit.I
+                  would recommend this business to everyone I know.
+                  I highly recommend California Solar Group for anyone looking to go solar. They provided excellent customer service from start to finish, answering all my questions and addressing any concerns. Their team of experts installed my panels quickly and efficiently, and now my energy bills are almost non-existent!
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <h3>Artur M.</h3>
+                <h4>Marketing and Sales</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Was great working with the company. First full circle bill came in at nearly zero. Estimated panel quantity
+                  was correct. Product is functioning properly. All city permits were processed by the company as well.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <h3>Rick F.</h3>
+                <h4>Customer Service Manager</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        Our salesperson, Pat, was very helpful explaining the system we needed ranging from our solar panels to
+                        our full battery backup system. Then, the installation team wowed us with the quality and the speed of
+                        their work. We are now net zero - meaning our electric bill is now at $0 each month and we don&#39;t have to
+                        worry when our neighborhood loses power (which happens often in this Malibu canyon) because we are
+                        now &quot;off the grid&quot; when it comes to electric service.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <h3>Jack I.</h3>
+                <h4>Los Angeles Resident</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+
+I spoke with a few different solar companies for roof and solar installation in Los Angeles. All quotes
+came in not too far from each other. However, California Solar Group was so much easier to work with than
+others. Also, I didn&#39;t feel pressured to sign anything or make any commitments. Peter was great. […] CA
+Solar Group obtained all permits and hosted all of the Inspections with the city. I didn&#39;t have to do a thing.
+Great product, warranty, and company!
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>Our Team</p>
+        </div>
+
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/team/team-1.jpg" id="image_1" class="img-fluid" alt="">
+                <!--
+                <div class="social">
+                  <a href="https://twitter.com/vahanyan14a"><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100093579737285"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/vahanyan14a/"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/armen-vahanyan-073a2a27b/"><i class="bi bi-linkedin"></i></a>
+                </div>
+                -->
+              </div>
+              <div class="member-info">
+                <h4>Armen Vahanyan</h4>
+                <span>Founder and CEO</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/team/team-3.jpg" id="image_3" class="img-fluid" alt="">
+                <!--
+                <div class="social">
+                  <a href="https://twitter.com/aovakimyan"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              -->
+
+              </div>
+              <div class="member-info">
+                <h4>Aram Ovakimyan</h4>
+                <span>Vice-President</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/img/team/team-2.jpg" id="image_2a" class="img-fluid" alt="">
+                <!--
+                <div class="social">
+                  <a href="https://twitter.com/thomson14ab"><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100093495261733"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/thomson14ab/"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/danny-thomson-3a6a3027b/"><i class="bi bi-linkedin"></i></a>
+                </div>
+              -->
+
+              </div>
+              <div class="member-info">
+                <h4>Danny Thomson</h4>
+                <span>Technical Director</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="assets/img/team/team-4.jpg" id="image_4" class="img-fluid" alt="">
+                <!--
+                <div class="social">
+                  <a href="https://twitter.com/weinberg14ab"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              -->
+
+              </div>
+              <div class="member-info">
+                <h4>Logan Weinberg</h4>
+                <span>Permit Coordinator</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <BR><BR>
+
+                <div class="container-fluid d-flex justify-content-center align-items-center">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                                <a href="team.html" class="btn btn-warning btn-lg">More&nbsp;Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </div>
+
+        <div>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13198.082169262416!2d-118.4930135!3d34.2097248!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c299ba856126d5%3A0xd304ffb7ba22282!2sCA%20Solar%20Group!5e0!3m2!1sen!2sus!4v1687051962189!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <a href="https://www.google.com/maps/search/7647+Hayvenhurst+Ave,+Unit+26,+Van+Nuys,+CA+91406" target="_blank">
+                <i class="bi bi-geo-alt" ></i>
+                </a>
+                <h4>Los Angeles Headquarters</h4>
+                <p>
+                    <a href="https://www.google.com/maps/search/7647+Hayvenhurst+Ave,+Unit+26,+Van+Nuys,+CA+91406" target="_blank">
+                    7647 Hayvenhurst Ave, Unit 26, Van Nuys, CA 91406
+                    </a>
+                </p>
+              </div>
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p><a href="tel:7472862828">(747) 286-2828</a></p>
+              </div>
+              <HR>
+              <div class="address">
+                <a href="https://www.google.com/maps?q=208+S+Grand+Ave,+Santa+Ana,+CA+92701" target="_blank">
+                <i class="bi bi-geo-alt"></i>
+                </a>
+                <h4>Orange County Branch Office</h4>
+                <p>
+                  <a href="https://www.google.com/maps?q=208+S+Grand+Ave,+Santa+Ana,+CA+92701" target="_blank">
+                    208 S Grand Ave, Santa Ana, CA 92701
+                  </a>
+                </p>
+              </div>
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p><a href="tel:8186582362">(818) 658-2362</a></p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p><a href="mailto:info@casolargroup.com">info@casolargroup.com</a></p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="hrn.jsp" method="post" role="form" id="contactform" name="contactform" class="php-email-form">
+              <input type="hidden" name="apiAction" id="apiAction"  value="addContact" >
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="* Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="* Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="* Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="* Message" required></textarea>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+
+            </form>
+
+                          <div class="loading" style="display: none;">Loading...</div>
+                          <div class="error-message" style="display: none;">Error</div>
+                          <div class="sent-message" style="display: none;">Thank You</div>
+                          <div id="successcontact" class="alert alert-success d-none" role="alert">
+                            <p id="thanksmessage"></p>
+                            <p class="reaching-out">For Reaching out to us</p>
+                            <p class="will-contact">We will contact you shortly to discuss your solar needs!</p>
+                          </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+    <script>
+      document.getElementById("contactform").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent form submission
+
+        // Display the loading message
+        document.querySelector(".loading").style.display = "block";
+        document.querySelector(".error-message").style.display = "none";
+        document.querySelector(".sent-message").style.display = "none";
+
+        // Serialize the form data
+        var formData = new URLSearchParams(new FormData(this)).toString();
+
+        // Perform an AJAX request to submit the form data
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", this.action, true);
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xhr.onreadystatechange = function() {
+          if (xhr.readyState === XMLHttpRequest.DONE) {
+            // Hide the loading message
+            document.querySelector(".loading").style.display = "none";
+
+            if (xhr.status === 200) {
+              // Show the success message
+              document.querySelector(".sent-message").style.display = "none";
+              document.querySelector(".error-message").style.display = "none";
+              document.getElementById("thanksmessage").textContent = xhr.responseText; // Display the response text
+              document.getElementById("successcontact").classList.remove("d-none"); // Make the element visible
+              // You can optionally reset the form here
+              document.getElementById("contactform").reset();
+              document.getElementById("contactform").style.display = 'none';
+            } else {
+              // Show the error message
+              document.querySelector(".error-message").style.display = "block";
+              document.querySelector(".sent-message").style.display = "none";
+              document.getElementById("successcontact").textContent = "An error occurred. Please try again.";
+            }
+          }
+        };
+        xhr.send(formData);
+      });
+    </script>
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-5 col-md-6">
+            <div class="footer-info">
+              <h3>California Solar Group</h3>
+              <p>casolargroup<span>.</span>com</p>
+              <p>
+                <a href="https://www.google.com/maps/search/7647+Hayvenhurst+Ave,+Unit+26,+Van+Nuys,+CA+91406" target="_blank">
+                7647 Hayvenhurst Ave, Unit 26, <br>
+                Van Nuys, CA 91406, USA<br>
+              </a>
+                <strong>Phone:</strong> <a href="tel:7472862828">(747) 286-2828</a><br>
+                <strong>Email:</strong> <a href="mailto:info@casolargroup.com">info@casolgroup.com</a><br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="https://www.facebook.com/casolargroup" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://twitter.com/CA_SolarGroup" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.instagram.com/californiasolargroup/?igshid=MzRlODBiNWFlZA%3D%3D" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/ca-solar-group/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="signup.jsp">Customer Portal</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="signup.employee.jsp">Technicians</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="accessibility.jsp">Accessibility Statement</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="tos.jsp">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="pp.jsp">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-1 col-md-6 footer-links">
+
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Stay up-to-date on the latest news and offers from California Solar Group by joining our newsletter. Simply enter your email address below and click "Subscribe" to start receiving regular updates from us.</p>
+            </p>
+            <form action="#subscribe" method="post" name="subscribeform" id="subscribeform" >
+              <input type="email" name="emailsub" id="emailsub" > <input type="submit" value="Subscribe" onclick="getsubscribe(event)">
+            </form>
+            <hr>
+            <div id="success" ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>California Solar Group</span></strong>. All Rights Reserved. CSLB #1067781
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
+        Designed by <a href="https://homerenovationnation.com">Home Renovation Nation Inc.</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z267KV90QY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-Z267KV90QY');
+  </script>
+
+  <script src="assets/js/acctoolbar.min.js"></script>
+  <script>
+  // optional init
+    window.onload = function() {
+      window.micAccessTool = new MicAccessTool({
+        link: 'https://casolargroup.com/accessibility.jsp',
+        contact: 'mailto:info@casolargroup.com',
+        buttonPosition: 'left', // default is 'left'
+        forceLang: 'en-EN' // default is 'en' may be 'he-IL', 'ru-RU', or 'fr_FR'
+      });
+    }
+  </script>
+  <!-- Messenger Chat Plugin Code -->
+      <div id="fb-root"></div>
+      <!-- Your Chat Plugin code -->
+      <div id="fb-customer-chat" class="fb-customerchat">
+      </div>
+
+      <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "106217184587017");
+        chatbox.setAttribute("attribution", "biz_inbox");
+      </script>
+
+      <!-- Your SDK code -->
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v17.0'
+          });
+        };
+
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+
+       <!-- Initialize Swiper -->
+       <script>
+         let swiper = new Swiper(".mySwiperBadges", {
+           slidesPerView: 3,
+           grid: {
+             rows: 2,
+           },
+           spaceBetween: 10,
+           navigation: {
+           nextEl: ".swiper-button-next",
+           prevEl: ".swiper-button-prev",
+           },
+           pagination: {
+             el: ".swiper-pagination",
+             clickable: true,
+           },
+           autoplay: {
+             delay: 2500,
+             disableOnInteraction: false,
+           },
+         });
+       </script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Display Articles with Bootstrap</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Articles</h1>
+    <div id="articles"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/he/1.2.0/he.min.js"></script>
+  <script>
+    // Fetch JSON data from the URL
+    fetch('https://casolargroup.io/wp-json/wuxt/v1/front-page')
+      .then(response => response.json())
+      .then(data => {
+        const articlesContainer = document.getElementById('articles');
+
+        // Loop through the articles and create Bootstrap cards with decoded title, content, and hyperlink
+        data.forEach(article => {
+          const card = document.createElement('div');
+          card.className = 'card';
+          card.style.width = '18rem';
+          card.style.marginBottom = '20px';
+
+          const cardBody = document.createElement('div');
+          cardBody.className = 'card-body';
+
+          const title = document.createElement('h5');
+          title.className = 'card-title';
+          title.textContent = he.decode(article.title.rendered);
+          cardBody.appendChild(title);
+
+          const content = document.createElement('p');
+          content.className = 'card-text';
+          content.innerHTML = article.content.rendered;
+          cardBody.appendChild(content);
+
+          const link = document.createElement('a');
+          link.href = article.link;
+          link.className = 'btn btn-primary';
+          link.textContent = 'Read More';
+          cardBody.appendChild(link);
+
+          card.appendChild(cardBody);
+          articlesContainer.appendChild(card);
+        });
+      })
+      .catch(error => console.error('Error:', error));
+  </script>
+</body>
+</html>

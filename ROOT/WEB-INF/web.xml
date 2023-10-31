@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+  version="4.0"
+  metadata-complete="true">
+
+  <display-name>California Solar Group</display-name>
+  <description>
+     California Solar Group Los Angeles
+  </description>
+  <error-page>
+      <error-code>404</error-code>
+      <location>/404.html</location>
+  </error-page>
+  <servlet>
+      <servlet-name>electricity_bill_offset</servlet-name>
+      <jsp-file>/electricity_bill_offset.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>electricity_bill_offset</servlet-name>
+      <url-pattern>/electricity_bill_offset.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>tax_credit</servlet-name>
+      <jsp-file>/tax_credit.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>tax_credit</servlet-name>
+      <url-pattern>/tax_credit.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>increased_home_value</servlet-name>
+      <jsp-file>/increased_home_value.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>increased_home_value</servlet-name>
+      <url-pattern>/increased_home_value.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>a_to_z_solar_install</servlet-name>
+      <jsp-file>/a_to_z_solar_install.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>a_to_z_solar_install</servlet-name>
+      <url-pattern>/a_to_z_solar_install.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>solar_consultation</servlet-name>
+      <jsp-file>/solar_consultation.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>solar_consultation</servlet-name>
+      <url-pattern>/solar_consultation.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>solar_system_design</servlet-name>
+      <jsp-file>/solar_system_design.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>solar_system_design</servlet-name>
+      <url-pattern>/solar_system_design.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>solar_installations</servlet-name>
+      <jsp-file>/solar_installations.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>solar_installations</servlet-name>
+      <url-pattern>/solar_installations.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>solar_financing</servlet-name>
+      <jsp-file>/solar_financing.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>solar_financing</servlet-name>
+      <url-pattern>/solar_financing.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>solar_maintenance_and_monitoring</servlet-name>
+      <jsp-file>/solar_maintenance_and_monitoring.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>solar_maintenance_and_monitoring</servlet-name>
+      <url-pattern>/solar_maintenance_and_monitoring.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>commercial_solar_solutions</servlet-name>
+      <jsp-file>/commercial_solar_solutions.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>commercial_solar_solutions</servlet-name>
+      <url-pattern>/commercial_solar_solutions.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>blog</servlet-name>
+      <jsp-file>/blog.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>blog</servlet-name>
+      <url-pattern>/blog.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>made_in_usa</servlet-name>
+      <jsp-file>/made_in_usa.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>made_in_usa</servlet-name>
+      <url-pattern>/made_in_usa.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>premium_solar_and_battery_installer</servlet-name>
+      <jsp-file>/premium_solar.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>premium_solar_and_battery_installer</servlet-name>
+      <url-pattern>/premium_solar_and_battery_installer.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>team</servlet-name>
+      <jsp-file>/team.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>team</servlet-name>
+      <url-pattern>/team.html</url-pattern>
+  </servlet-mapping>
+</web-app>
