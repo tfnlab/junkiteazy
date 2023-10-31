@@ -298,6 +298,7 @@ h6 {
     align-items: center;
     justify-content: center;
     padding: 0 20px;
+    color: white; /* Set the font color to white */
 }
 .navbar .mobile-menu-logo img{
   width: 100%
