@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>California Solar Group - Terms of service</title>
-  <meta name="description" content="Read and accept the Terms of Service for California Solar Group's website. Find information about solar energy systems, services, and related products.">
-  <meta name="keywords" content="California Solar Group, solar energy, Terms of Service, solar systems, solar services, solar products">
+  <title>Junk It Eazy - Terms of service</title>
+  <meta name="description" content="Read and accept the Terms of Service for Junk It Eazy's website. Find information about solar energy systems, services, and related products.">
+  <meta name="keywords" content="Junk It Eazy, solar energy, Terms of Service, solar systems, solar services, solar products">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -75,7 +75,7 @@
 
         <h3>2. Description of Services</h3>
         <p>
-          California Solar Group provides information about solar energy systems, services, and related products on its Website. The Website may also allow users to request quotes or schedule consultations for solar installation services.
+          Junk It Eazy provides information about solar energy systems, services, and related products on its Website. The Website may also allow users to request quotes or schedule consultations for solar installation services.
         </p>
 
         <h3>3. Use of the Website</h3>
@@ -99,31 +99,31 @@
 
         <h3>4. Intellectual Property</h3>
         <p>
-          All content, logos, trademarks, and other intellectual property rights on the Website are owned or licensed by California Solar Group. You may not use, reproduce, distribute, or modify any content from the Website without obtaining prior written permission from California Solar Group.
+          All content, logos, trademarks, and other intellectual property rights on the Website are owned or licensed by Junk It Eazy. You may not use, reproduce, distribute, or modify any content from the Website without obtaining prior written permission from Junk It Eazy.
         </p>
 
         <h3>5. Privacy</h3>
         <p>
-          Your use of the Website is subject to California Solar Group's <a href="#privacy-policy">Privacy Policy</a>, which explains how we collect, use, and disclose your personal information. By using the Website, you consent to the collection and processing of your personal information as described in the Privacy Policy.
+          Your use of the Website is subject to Junk It Eazy's <a href="#privacy-policy">Privacy Policy</a>, which explains how we collect, use, and disclose your personal information. By using the Website, you consent to the collection and processing of your personal information as described in the Privacy Policy.
         </p>
 
         <h3>6. Disclaimers</h3>
         <p>
-          <strong>a. No Warranty:</strong> California Solar Group does not warrant the accuracy, completeness, or reliability of any information or content on the Website. The Website is provided on an "as is" and "as available" basis without any
-          <strong>b. Third-Party Content:</strong> The Website may contain links to third-party websites, products, or services. California Solar Group does not endorse, control, or assume any responsibility for the content, privacy policies, or practices of any third-party websites or services.
+          <strong>a. No Warranty:</strong> Junk It Eazy does not warrant the accuracy, completeness, or reliability of any information or content on the Website. The Website is provided on an "as is" and "as available" basis without any
+          <strong>b. Third-Party Content:</strong> The Website may contain links to third-party websites, products, or services. Junk It Eazy does not endorse, control, or assume any responsibility for the content, privacy policies, or practices of any third-party websites or services.
         </p>
           <h3>7. Limitation of Liability</h3>
 
             <p>
-              In no event shall California Solar Group be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or in connection with your use of the Website, whether based on warranty, contract, tort, or any other legal theory.
+              In no event shall Junk It Eazy be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or in connection with your use of the Website, whether based on warranty, contract, tort, or any other legal theory.
             </p>
             <h3>8. Indemnification</h3>
             <p>
-              You agree to indemnify and hold California Solar Group and its officers, directors, employees, and agents harmless from any claim, demand, or damages, including attorneys' fees, arising out of or related to your use of the Website or violation of these Terms of Service.
+              You agree to indemnify and hold Junk It Eazy and its officers, directors, employees, and agents harmless from any claim, demand, or damages, including attorneys' fees, arising out of or related to your use of the Website or violation of these Terms of Service.
             </p>
             <h3>9. Modifications to the Terms of Service</h3>
             <p>
-              California Solar Group reserves the right to modify or replace these Terms of Service at any time. The updated version of the Terms of Service will be effective as of the date of posting on the Website. It is your responsibility to review the Terms of Service periodically for any changes. Your continued use of the Website after the posting of any modifications constitutes acceptance of those changes.
+              Junk It Eazy reserves the right to modify or replace these Terms of Service at any time. The updated version of the Terms of Service will be effective as of the date of posting on the Website. It is your responsibility to review the Terms of Service periodically for any changes. Your continued use of the Website after the posting of any modifications constitutes acceptance of those changes.
             </p>
       </div>
     </section>

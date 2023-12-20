@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>California Solar Group - Privacy Policy</title>
-  <meta name="keywords" content="Privacy Policy, California Solar Group, personal information, data protection">
-  <meta name="description" content="Read the Privacy Policy of California Solar Group to understand how we collect, use, and protect your personal information.">
+  <title>Junk It Eazy - Privacy Policy</title>
+  <meta name="keywords" content="Privacy Policy, Junk It Eazy, personal information, data protection">
+  <meta name="description" content="Read the Privacy Policy of Junk It Eazy to understand how we collect, use, and protect your personal information.">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -69,7 +69,7 @@
 
         <h5 class="mb-3">Effective Date: 6/14/2023</h5>
 
-        <p>At California Solar Group, we value your privacy and are committed to protecting your personal information. This
+        <p>At Junk It Eazy, we value your privacy and are committed to protecting your personal information. This
           Privacy Policy outlines how we collect, use, disclose, and safeguard the information you provide to us through our
           website, applications, and services. Please read this policy carefully to understand our practices regarding your
           personal information and how we handle it.</p>
