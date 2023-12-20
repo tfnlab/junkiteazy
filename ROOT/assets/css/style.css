@@ -296,6 +296,10 @@ h6 {
 .navbar-brand {
   color: white; /* Set the font color to white */
 }
+.navbar-brand .a:hover{
+  color: #ffc451;
+}
+
 .navbar .mobile-menu-logo{
   width: 170px;
     display: none;
