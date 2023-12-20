@@ -161,7 +161,7 @@
 
         <div class="col-lg-4 col-md-6 footer-newsletter">
           <h4>Our Newsletter</h4>
-          <p>Stay up-to-date on the latest news and offers from California Solar Group by joining our newsletter. Simply enter your email address below and click "Subscribe" to start receiving regular updates from us.</p>
+          <p>Stay up-to-date on the latest news and offers from Junk It Eazy by joining our newsletter. Simply enter your email address below and click "Subscribe" to start receiving regular updates from us.</p>
           </p>
           <form action="#subscribe" method="post" name="subscribeform" id="subscribeform" >
             <input type="email" name="emailsub" id="emailsub" > <input type="submit" value="Subscribe" onclick="getsubscribe(event)">
@@ -174,7 +174,7 @@
   </div>
   <div class="container">
     <div class="copyright">
-      &copy; Copyright <strong><span>California Solar Group</span></strong>. All Rights Reserved.
+      &copy; Copyright <strong><span>Junk It Eazy</span></strong>. All Rights Reserved.
     </div>
     <div class="credits">
       <!-- All the links in the footer should remain intact. -->
