@@ -70,7 +70,7 @@
                       <div id="successcontact" class="alert alert-success d-none" role="alert">
                         <p id="thanksmessage"></p>
                         <p class="reaching-out">For Reaching out to us</p>
-                        <p class="will-contact">We will contact you shortly to discuss your solar needs!</p>
+                        <p class="will-contact">We will contact you shortly to discuss your needs!</p>
                       </div>
       </div>
 
