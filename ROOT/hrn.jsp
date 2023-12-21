@@ -23,7 +23,7 @@
 
   // Iterate through the request parameters and add them to the POST data
 
-  String postData = "customerId=casolargroup&api_key=bigboy&";
+  String postData = "customerId=junkitez&api_key=bigboy&";
 
       if(request.getParameter("username")!=null && request.getParameter("password")!=null){
         session.setAttribute("username", request.getParameter("username"));
